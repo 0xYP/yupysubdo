@@ -9,7 +9,7 @@ To use this program, make sure Python 3 is installed on your computer. Then, fol
 - Enter the repo directory by ``cd yupysubdo``
 - Install all dependencies by ``pip install -r requirements.txt``
 - Here you must have Sublist3r, Amass, Subfinder, Assetfinder, and Knockpy first to run this tool
-- Run the program using ``python sub.py domain.com``
+- Run the program using ``python yupysubdo.py domain.com``
 
 The program will request domain input from the user via command line arguments, then the program will run each tool to find subdomains of the input domain. Each subdomain search results from the tools will be combined into one set and stored in the output file with the name "hasil.txt". The program also displays a banner with ASCII art and a status message for each running tool.
 
@@ -21,7 +21,7 @@ usage: yupysubdo.py [-h] domain
 All in One Subdomain Finder Tool
 
 positional arguments:
-  domain      example: sub.py domain.com
+  domain      example: yupysubdo.py domain.com
 
 options:
   -h, --help  show this help message and exit
