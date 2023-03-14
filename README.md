@@ -5,7 +5,7 @@ All in One Subdomain Finder Tool is a tool to search for subdomains of an inputt
 
 To use this program, make sure Python 3 is installed on your computer. Then, follow these steps:
 
-- Clone this repository by git clone https://github.com/0xYP/yupysubdo.git
+- Clone this repository by git ``clone https://github.com/0xYP/yupysubdo.git``
 - Enter the repo directory by ``cd yupysubdo``
 - Install all dependencies by ``pip install -r requirements.txt``
 - Here you must have Sublist3r, Amass, Subfinder, Assetfinder, and Knockpy first to run this tool
