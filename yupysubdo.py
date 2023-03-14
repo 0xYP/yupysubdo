@@ -75,7 +75,7 @@ def main(domain):
 if __name__ == '__main__':
     # Command line arguments
     parser = argparse.ArgumentParser(description=BOLD + 'All in One Subdomain Finder Tool' + RESET)
-    parser.add_argument('domain', help=BOLD + 'example: sub.py domain.com' + RESET)
+    parser.add_argument('domain', help=BOLD + 'example: yupysubdo.py domain.com' + RESET)
     args = parser.parse_args()
 
     # Run the main function
